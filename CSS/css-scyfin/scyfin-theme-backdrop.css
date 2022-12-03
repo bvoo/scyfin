@@ -7,59 +7,6 @@
 
 
 
-/* Static left drawer */
-.layout-desktop .mainDrawer {
-    transform: none !important;
-    left: 0 !important;
-    top: 0 !important;
-    width: 250px !important;
-    /* Modified background color */
-    background-color: transparent !important;
-    /* Move drawer behind header */
-    z-index: 998 !important;
-}
-/* Lower drawer buttons */
-.layout-desktop .mainDrawer-scrollContainer {
-    margin-top: 95px !important;
-}
-.layout-mobile .mainDrawer-scrollContainer {
-    margin-top: 20px !important;
-}
-/* Shift content to the right */
-.layout-desktop .libraryPage:not(#quickConnectPreferencesPage, #editItemMetadataPage) {
-    margin-left: 250px !important;
-}
-/* Hide transition on page load */
-.layout-desktop .touch-menu-la.transition {
-    transition: none !important;
-}
-/* Hide hamburger button */
-.layout-desktop .mainDrawerButton {
-    display: none !important;
-}
-/* Fix for dashboard drawer button height */
-.layout-desktop .dashboardDocument .mainDrawer-scrollContainer {
-    padding-top: 0 !important;
-}
-/* Hide home button */
-.layout-desktop .headerHomeButton {
-    display: none !important;
-}
-.layout-desktop .dashboardDocument .headerHomeButton {
-    display: block !important;
-}
-/* Fix for video player and login page */
-.layout-desktop .hide-scroll .mainDrawer,
-.layout-desktop .hideMainDrawer .mainDrawer {
-    left: -320px !important;
-}
-/* Fix for scroll menus on home page */
-.emby-scroller {
-    margin-right: -2% !important;
-}
-
-
-
 /* Rounded cards */
 .cardContent,
 .cardPadder,
@@ -442,26 +389,6 @@
 /* Remove overlapping text */
 .itemMiscInfo.itemMiscInfo-secondary {
     margin-left: 65px !important;
-}
-
-
-
-/* Player modifications */
-.upNextContainer, .toastVisible, .sliderBubble {
-    backdrop-filter: blur(50px) !important;
-}
-.upNextContainer {
-    border-radius: 15px !important;
-    background-color: rgba(0, 0, 0, 0.7) !important;
-}
-.toastVisible {
-    border-radius: 30px !important;
-    background-color: rgba(35, 35, 35, 0.5) !important;
-}
-.sliderBubble {
-    border-radius: 15px !important;
-    background-color: rgba(0,0,0,0.5) !important;
-    height: 55px !important
 }
 
 
